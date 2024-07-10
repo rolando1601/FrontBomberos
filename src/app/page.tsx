@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <h1>hola mundo</h1>
-        <Image src="/images/vercel.png" alt="Vercel Logo" width={72} height={16} />
+      
       </div>
     </main>
   );

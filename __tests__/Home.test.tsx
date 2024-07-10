@@ -11,9 +11,4 @@ describe('Home Page', () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it('renders Vercel logo', () => {
-    render(<Home />);
-    const image = screen.getByAltText(/Vercel Logo/i);
-    expect(image).toBeInTheDocument();
-  });
 });
